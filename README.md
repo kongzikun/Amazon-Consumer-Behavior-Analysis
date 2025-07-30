@@ -4,15 +4,15 @@
 
 ## Abstract
 
-The project analyses the **Open E‑commerce 1.0** dataset, which consists of **1.8 million Amazon purchase records from over 5 000 U.S. shoppers between 2018 and 2022**, linked to their demographic profiles【385676301449250†L31-L35】.  By cleansing and merging transactional data with survey responses, we build a rich view of consumer behaviour.  We find that spending patterns align with overall market performance and that pandemic restrictions accelerated online shopping while increasing heterogeneity【385676301449250†L43-L49】.  Segmenting customers using an **RFM model and K‑Means clustering** uncovers distinct archetypes, such as **High‑Value Champions** and **At‑Risk** cohorts【385676301449250†L49-L56】.  The dataset also offers potential for migration and socioeconomic studies【385676301449250†L57-L60】.  Visual analytics drive each insight, emphasising the value of interactive dashboards for business and academic research【385676301449250†L60-L65】.
+The project analyses the **Open E‑commerce 1.0** dataset, which consists of **1.8 million Amazon purchase records from over 5 000 U.S. shoppers between 2018 and 2022**, linked to their demographic profiles.  By cleansing and merging transactional data with survey responses, we build a rich view of consumer behaviour.  We find that spending patterns align with overall market performance and that pandemic restrictions accelerated online shopping while increasing heterogeneity.  Segmenting customers using an **RFM model and K‑Means clustering** uncovers distinct archetypes, such as **High‑Value Champions** and **At‑Risk** cohorts.  The dataset also offers potential for migration and socioeconomic studies.  Visual analytics drive each insight, emphasising the value of interactive dashboards for business and academic research.
 
 ## Key Features
 
 * **Comprehensive demographic analysis** – charts illustrate gender, age, income and household size distributions.
 * **Temporal breakdowns** – quarterly, monthly and daily patterns highlight spending and activity cycles; seasonal decomposition isolates trend and seasonality.
 * **Behavioural insights** – heatmaps and scatter plots compare frequency, spending and product diversity for each user group.
-* **Event‑driven analysis** – the impact of COVID‑19 and other key events is assessed through time‑stamped data and annotations【385676301449250†L47-L49】.
-* **Advanced segmentation** – an RFM model combined with K‑Means clustering identifies customer segments such as High‑Value Champions, Frequent Buyers and At‑Risk customers【385676301449250†L49-L56】.
+* **Event‑driven analysis** – the impact of COVID‑19 and other key events is assessed through time‑stamped data and annotations.
+* **Advanced segmentation** – an RFM model combined with K‑Means clustering identifies customer segments such as High‑Value Champions, Frequent Buyers and At‑Risk customers.
 * **Geographical migration** – sankey diagrams and tenure analyses examine regional moves and tenure vs. state changes.
 * **Publication‑ready visuals** – all charts are generated using Plotly and saved as high‑resolution PNG and interactive HTML files via a custom `save_academic_figure` function.
 
@@ -22,9 +22,9 @@ The project analyses the **Open E‑commerce 1.0** dataset, which consists of 
 2. **Demographic profiling:** Merge purchase and survey data and visualise distributions of gender, age, income and household size.
 3. **Temporal analysis:** Create quarterly spending trends, monthly comparisons of spending vs. purchase counts, daily heatmaps of activity and seasonal decomposition to separate trend and seasonality components.
 4. **Behaviour analysis:** Explore relationships between purchase frequency, total spending and product category diversity; identify peak activity periods.
-5. **Event analysis:** Assess the effects of the COVID‑19 pandemic and other key dates by annotating time series plots and examining related product categories【385676301449250†L47-L49】.
-6. **Advanced segmentation:** Use an **RFM (Recency, Frequency, Monetary)** model and **K‑Means clustering** to segment users; visualise segments with 3D scatter and normalized bar charts【385676301449250†L49-L56】.
-7. **Migration analysis:** Track customer movements across U.S. states and regions; employ sankey diagrams and scatter plots to understand tenure and spending patterns【385676301449250†L57-L60】.
+5. **Event analysis:** Assess the effects of the COVID‑19 pandemic and other key dates by annotating time series plots and examining related product categories.
+6. **Advanced segmentation:** Use an **RFM (Recency, Frequency, Monetary)** model and **K‑Means clustering** to segment users; visualise segments with 3D scatter and normalized bar charts.
+7. **Migration analysis:** Track customer movements across U.S. states and regions; employ sankey diagrams and scatter plots to understand tenure and spending patterns.
 
 ## Required Libraries
 
@@ -54,7 +54,7 @@ Ensure these libraries are installed (e.g., via `pip install pandas numpy plotly
 
 ## Team Members
 
-This project was completed by **Group 2** (Project code SUSTech DS261p) as follows【385676301449250†L80-L108】:
+This project was completed by **Group 2** (Project code SUSTech DS261p) as follows:
 
 | Role | Contribution |
 |-----|-------------|
@@ -65,4 +65,4 @@ This project was completed by **Group 2** (Project code SUSTech DS261p) as fol
 
 ## Citation
 
-When using this repository or referencing its findings, please cite the original Open E‑commerce 1.0 dataset creators and this project's authors.  The analysis demonstrates how visual analytics can transform transactional datasets into strategic insights for both business and academic audiences【385676301449250†L60-L65】.
+When using this repository or referencing its findings, please cite the original Open E‑commerce 1.0 dataset creators and this project's authors.  The analysis demonstrates how visual analytics can transform transactional datasets into strategic insights for both business and academic audiences.
