@@ -39,10 +39,6 @@ FONT_CONFIG = {
     'tick_label_size': 18, 'legend_title_size': 20, 'legend_item_size': 18, 'annotation_size': 16
 }
 
-os.makedirs('images', exist_ok=True)
-os.makedirs('interactive_html', exist_ok=True)
-
-
 ## DEFINITIVE CORE FUNCTION: save_academic_figure (Vetted Final Version)
 def save_academic_figure(fig, filename):
     fig.update_layout(title_x=0.5, title_xanchor='center')
