@@ -995,34 +995,6 @@ class AmazonDataAnalyzer:
                 fig.write_html(f"{output_dir}/{name}.html")
                 print(f"Saved {name}.html")
 
-## Usage Example
-
-
-# Example usage
-if __name__ == "__main__":
-    # Initialize analyzer
-    analyzer = AmazonDataAnalyzer('/Users/tianyi_lyu/Library/CloudStorage/OneDrive-Audencia/大三下课程/数据可视化/Final Project/代码实现/数据集/amazon-purchases.csv', '/Users/tianyi_lyu/Library/CloudStorage/OneDrive-Audencia/大三下课程/数据可视化/Final Project/代码实现/数据集/survey.csv')
-    
-    # Run complete analysis
-    results = analyzer.run_complete_analysis()
-    
-    # Generate summary report
-    summary = analyzer.generate_summary_report(results)
-    print("\nSummary Report:")
-    for key, value in summary.items():
-        print(f"{key}: {value}")
-    
-    # Save visualizations
-    analyzer.save_visualizations(results)
-    
-    # Display individual visualizations
-    # results['demographic_dashboard'].show()
-    # results['geographic_map'].show()
-    # results['quarterly_trends'].show()
-    # results['covid_impact'].show()
-    # results['rfm_analysis'].show()
-
-
 ## Data Validation and Error Handling
 
 class DataValidator:
