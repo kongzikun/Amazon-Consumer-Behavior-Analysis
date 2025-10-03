@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv
+venv/
+.env.local
+*.ipynb_checkpoints
+# Local data files
+数据集/
+project_data/
+data/amazon-purchases.csv
+data/raw/
+# Plotly export artifacts
+outputs/interactive/*.tmp
