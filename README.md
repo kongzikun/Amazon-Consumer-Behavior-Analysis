@@ -72,7 +72,7 @@ The batch job recreates the curated PNG and HTML assets in `assets/images/` and 
 - Storyboard-style narrative HTML reports in `outputs/visualizations/`.
 
 ## Team
-This project was developed by Group 2 (SUSTech DS261p):
+This project was developed by Group 2:
 - **Tianyi Lyu** – Project lead, research design, and coordination.
 - **Zikun Kong** – Data and technical lead; preprocessing, modelling, and visualisation scripts.
 - **Zinan Ye** – Presentation lead; narrative design and figure refinement.
